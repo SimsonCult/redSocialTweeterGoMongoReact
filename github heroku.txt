@@ -1,0 +1,27 @@
+echo "# redSocialTweeterGoMongoReact" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/SimsonCult/redSocialTweeterGoMongoReact.git
+git push -u origin master
+
+git remote add origin https://github.com/SimsonCult/redSocialTweeterGoMongoReact.git
+git push -u origin master
+
+
+
+
+---------------heroku-------------------
+$ heroku login
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a tareatweeter
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+-------------mongo--------------
+
+mongodb+srv://<username>:<password>@cluster0.5tdn4.mongodb.net/<dbname>?retryWrites=true&w=majority
